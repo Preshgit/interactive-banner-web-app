@@ -6,7 +6,7 @@ const Banner = ({ bannerConfig }) => {
     description = "Discover amazing dog breeds that make perfect companions. From loyal Labradors to playful Beagles.",
     buttonText = "Learn More",
     backgroundColor = "#2563eb",
-    imageURL = "/image/Golden-Retriever.png",
+    imageURL = "/image/dog-image.png",
   } = bannerConfig;
 
   return (
