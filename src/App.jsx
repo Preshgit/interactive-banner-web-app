@@ -31,7 +31,7 @@ const App = () => {
       "Discover amazing dog breeds that make perfect companions. From loyal Labradors to playful Beagles.",
     buttonText: "Learn More",
     backgroundColor: "#2563eb",
-    imageURL: "#",
+    imageURL: "/image/dog-image.png",
   });
 
   useEffect(() => {
@@ -51,7 +51,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8 px-4">
+    <div className="flex items-center max-w-screen mx-auto min-h-screen bg-gray-100 py-8 px-4">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold text-center mb-8">
           Customize Your Banner
