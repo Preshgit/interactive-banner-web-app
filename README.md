@@ -7,13 +7,13 @@ A React-based web application featuring a dynamic banner that users can customiz
 - **Dynamic Banner**: A full-width banner displaying content about a personal interest.
 - **Interactive Controls**: Form elements enabling users to modify:
   - Banner background color
-  - Banner text
-  - Banner image
+  - Banner title
+  - Banner description
 - **Real-Time Updates**: Immediate reflection of changes without page reloads.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed on your system:
+Before you clone, please ensure you have the following installed on your system:
 
 - [Node.js](https://nodejs.org/) (version 16 or higher)
 - [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) (version 1.22 or higher)
@@ -31,30 +31,30 @@ To set up the project locally:
 
 2. **Install dependencies**:
 
-   Using npm:
-
-   ```bash
-   npm install
-   ```
-
-   Or using Yarn:
+   Using Yarn:
 
    ```bash
    yarn install
    ```
 
-3. **Start the development server**:
-
-   Using npm:
+   Or using npm:
 
    ```bash
-   npm run dev
+   npm install
    ```
 
-   Or using Yarn:
+3. **Start the development server**:
+
+   Using Yarn:
 
    ```bash
    yarn dev
+   ```
+
+   Or using npm:
+
+   ```bash
+   npm run dev
    ```
 
 4. Open your browser and navigate to `http://localhost:5173` to view the application.
@@ -65,27 +65,28 @@ The following scripts are available for both npm and Yarn:
 
 - **Start development server**:
 
-  - npm: `npm run dev`
   - Yarn: `yarn dev`
+  - npm: `npm run dev`
 
 - **Build for production**:
 
-  - npm: `npm run build`
   - Yarn: `yarn build`
+  - npm: `npm run build`
 
 - **Preview production build**:
 
-  - npm: `npm run preview`
   - Yarn: `yarn preview`
+  - npm: `npm run preview`
 
 - **Run tests**:
 
-  - npm: `npm test`
   - Yarn: `yarn test`
+  - npm: `npm test`
 
 - **Lint the code**:
-  - npm: `npm run lint`
+
   - Yarn: `yarn lint`
+  - npm: `npm run lint`
 
 ## Testing
 
@@ -124,9 +125,9 @@ interactive-banner-app/
 └── README.md             # Project documentation
 ```
 
-## Contribution Guidelines
+## To my Outreachy Mentors
 
-Contributions are welcome! To contribute:
+Your Contributions/Review are highly welcome! To review:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix:
@@ -141,7 +142,7 @@ Contributions are welcome! To contribute:
    ```bash
    git push origin feature-name
    ```
-5. Open a pull request on the main repository.
+5. Open a pull request on the main repository and I will gladly merge, thank you!.
 
 ## License
 
