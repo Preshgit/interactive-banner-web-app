@@ -10,14 +10,3 @@ export default {
   },
   resolver: undefined,
 };
-
-// module.exports = {
-//   testEnvironment: "jsdom",
-//   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
-//   transform: {
-//     "^.+\\.(js|jsx|ts|tsx)$": "babel-jest", // Ensure Jest transforms modern JS/TS
-//   },
-//   moduleNameMapper: {
-//     "\\.(css|scss|less)$": "identity-obj-proxy", // Mock CSS imports
-//   },
-// };
