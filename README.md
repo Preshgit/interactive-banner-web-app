@@ -142,7 +142,7 @@ Your Contributions/Review are highly welcome! To review:
    ```bash
    git push origin feature-name
    ```
-5. Open a pull request on the main repository and I will gladly merge, thank you!.
+5. Open a pull request on the main repository and I will gladly review the PR and merge, thank you!.
 
 ## License
 
