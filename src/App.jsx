@@ -4,16 +4,13 @@ import Banner from "./components/banner";
 import BannerControls from "./components/bannerControls";
 
 const App = () => {
-  const [image, setImage] = useState("");
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [backgroundColor, setBackgroundColor] = useState("");
 
   useEffect(() => {
     const keys = Object.keys(localStorage);
-    if (keys.includes("image")) {
-      setImage(JSON.parse(localStorage.getItem("image")));
-    }
+
     if (keys.includes("title")) {
       setTitle(JSON.parse(localStorage.getItem("title")));
     }
@@ -41,10 +38,9 @@ const App = () => {
         title,
         description,
         backgroundColor,
-        imageURL: image || prev.imageURL,
       };
     });
-  }, [image, title, description, backgroundColor]);
+  }, [title, description, backgroundColor]);
 
   const updateBannerConfig = (newConfig) => {
     setBannerConfig(newConfig);
@@ -53,7 +49,7 @@ const App = () => {
   return (
     <div className="flex items-center max-w-screen mx-auto min-h-screen bg-gray-100 py-8 px-4">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-8">
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
           Customize Your Banner
         </h1>
         <Banner bannerConfig={bannerConfig} />
