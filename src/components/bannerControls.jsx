@@ -54,7 +54,7 @@ const BannerControls = ({ bannerConfig, updateBannerConfig }) => {
                 type="color"
                 id="backgroundColor"
                 className="h-10 w-full hover:cursor-pointer md:hover:cursor-pointer rounded-sm"
-                value={bannerConfig.backgroundColor}
+                value={bannerConfig.backgroundColor || "#2563eb"}
                 onChange={(e) =>
                   handleChange("backgroundColor", e.target.value)
                 }
