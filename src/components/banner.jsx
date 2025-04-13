@@ -16,7 +16,7 @@ const Banner = ({ bannerConfig }) => {
         className="p-6 sm:p-10 bg-[#2563eb] w-full rounded-lg"
       >
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="w-full md:w-1/2 text-white">
+          <div className="w-full md:max-w-1/2 text-white">
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4">
               {title}
             </h2>
