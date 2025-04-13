@@ -18,9 +18,11 @@ const Banner = ({ bannerConfig }) => {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:max-w-1/2 text-white">
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4">
-              {title}
+              {bannerConfig.title}
             </h2>
-            <p className="text-lg sm:text-xl opacity-90 mb-6">{description}</p>
+            <p className="text-lg sm:text-xl opacity-90 mb-6">
+              {bannerConfig.description}
+            </p>
             <button className="bg-white text-gray-900 px-6 py-2 rounded-full font-medium hover:bg-gray-100 active:bg-gray-300 cursor-pointer transition-colors">
               {buttonText}
             </button>
