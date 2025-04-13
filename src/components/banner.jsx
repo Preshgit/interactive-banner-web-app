@@ -13,7 +13,7 @@ const Banner = ({ bannerConfig }) => {
     <div className="flex items-center max-w-screen mb-8 shadow-lg rounded-lg overflow-hidden">
       <div
         style={{ backgroundColor }}
-        className="p-6 sm:p-10 bg-[#2563eb] max-w-screen"
+        className="p-6 sm:p-10 bg-[#2563eb] w-full rounded-lg"
       >
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 text-white">
