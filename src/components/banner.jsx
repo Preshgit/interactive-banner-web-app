@@ -11,7 +11,7 @@ const Banner = ({ bannerConfig }) => {
 
   return (
     <div className="flex items-center max-w-screen mb-8 shadow-lg rounded-lg overflow-hidden">
-      <div style={{ backgroundColor }} className="p-6 sm:p-10">
+      <div style={{ backgroundColor }} className="p-6 sm:p-10 bg-[#2563eb]">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 text-white">
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4">
@@ -23,7 +23,7 @@ const Banner = ({ bannerConfig }) => {
             </button>
           </div>
           <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center ">
-            <img src={imageURL} alt="dog" className="w-3/4 md:w-1/2 h-auto" />
+            <Image src={imageURL} alt="dog" className="w-3/4 md:w-1/2 h-auto" />
           </div>
         </div>
       </div>
