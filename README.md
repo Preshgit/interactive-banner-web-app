@@ -13,7 +13,7 @@ A React-based web application featuring a dynamic banner that users can customiz
 
 ## Explore this Interactive banner
 
-https://vercel.com/preshgits-projects/interactive-banner-web-app
+https://interactive-banner-web-app.vercel.app/
 
 ## Prerequisites
 
