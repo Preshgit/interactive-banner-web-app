@@ -43,7 +43,7 @@ const BannerControls = ({ bannerConfig, updateBannerConfig }) => {
               htmlFor="backgroundColor"
               className="block text-sm font-medium mb-1"
             >
-              Background Color -{" "}
+              Background Color -
               <span className="text-gray-500">
                 choose your prefered background color by clicking on the color
                 block
@@ -58,6 +58,7 @@ const BannerControls = ({ bannerConfig, updateBannerConfig }) => {
                 onChange={(e) =>
                   handleChange("backgroundColor", e.target.value)
                 }
+                placeholder="#2563eb"
               />
             </div>
           </div>
