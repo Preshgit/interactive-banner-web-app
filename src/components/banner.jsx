@@ -44,3 +44,4 @@ const Banner = ({ bannerConfig }) => {
     </div>
   );
 };
+export default Banner;
