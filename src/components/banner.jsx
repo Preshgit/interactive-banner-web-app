@@ -18,7 +18,7 @@ const Banner = ({ bannerConfig }) => {
         <div className="w-full md:max-w-1/2 text-white">
           {!title ? (
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4">
-              Set your Banner title.
+              Popular Types of Dogs
             </h2>
           ) : (
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4">
@@ -27,7 +27,8 @@ const Banner = ({ bannerConfig }) => {
           )}
           {!description ? (
             <p className="text-lg sm:text-xl opacity-90 mb-6">
-              Write a description for your banner.
+              Discover amazing dog breeds that make perfect companions. From
+              loyal Labradors to playful Beagles.
             </p>
           ) : (
             <p className="text-lg sm:text-xl opacity-90 mb-6">{description}</p>
