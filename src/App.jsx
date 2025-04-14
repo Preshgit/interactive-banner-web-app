@@ -23,9 +23,8 @@ const App = () => {
   }, []);
 
   const [bannerConfig, setBannerConfig] = useState({
-    title: "Popular Types of Dogs",
-    description:
-      "Discover amazing dog breeds that make perfect companions. From loyal Labradors to playful Beagles.",
+    title: "",
+    description: "",
     buttonText: "Learn More",
     backgroundColor: "#2563eb",
     imageURL: "/image/dog-image.png",
@@ -48,7 +47,7 @@ const App = () => {
 
   return (
     <div className="flex items-center max-w-screen mx-auto min-h-screen bg-gray-100 py-8 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto w-full">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
           Customize Your Banner
         </h1>
