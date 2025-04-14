@@ -24,7 +24,7 @@ const Banner = ({ bannerConfig }) => {
             {buttonText}
           </button>
         </div>
-        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center ">
+        <div className="w-full md:max-w-1/2 mt-6 md:mt-0 flex justify-center ">
           <img src={imageURL} alt="dog" className="w-3/4 md:w-1/2 h-auto" />
         </div>
       </div>
