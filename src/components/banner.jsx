@@ -13,7 +13,7 @@ const Banner = ({ bannerConfig }) => {
     <div className="flex items-center max-w-screen mb-8 shadow-lg rounded-lg overflow-hidden">
       <div
         style={{ backgroundColor }}
-        className="flex flex-col md:flex-row items-center justify-between p-6 sm:p-10 bg-[#2563eb] w-full rounded-lg"
+        className="flex flex-col md:flex-row items-center justify-between p-4 sm:p-8 bg-[#2563eb] w-full rounded-lg"
       >
         <div className="w-full md:max-w-1/2 text-white">
           {!title ? (
@@ -26,7 +26,7 @@ const Banner = ({ bannerConfig }) => {
             </h2>
           )}
           {!description ? (
-            <p className="text-lg sm:text-xl opacity-90 mb-6">
+            <p className="text-lg sm:text-xl opacity-90 mb-6 font-medium">
               Discover amazing dog breeds that make perfect companions. From
               loyal Labradors to playful Beagles.
             </p>
