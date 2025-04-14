@@ -78,7 +78,7 @@ const BannerControls = ({ bannerConfig, updateBannerConfig }) => {
               className="w-full h-30 px-3 py-2 border rounded-md active:outline-none hover:outline-none focus:outline-none"
               value={bannerConfig.description || ""}
               onChange={(e) => handleChange("description", e.target.value)}
-              placeholder="Write a description for your banner"
+              placeholder="Type a description for your banner"
             ></textarea>
           </div>
         </div>
