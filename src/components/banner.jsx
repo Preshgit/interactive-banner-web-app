@@ -28,7 +28,7 @@ const Banner = ({ bannerConfig }) => {
           {!description ? (
             <p className="text-lg sm:text-xl opacity-90 mb-6 font-medium">
               Discover amazing dog breeds that make perfect companions. From
-              loyal Labradors to playful Beagles.
+              loyal Labradors to playful Beagles!
             </p>
           ) : (
             <p className="text-lg sm:text-xl opacity-90 mb-6">{description}</p>
